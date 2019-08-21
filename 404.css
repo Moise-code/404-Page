@@ -1,0 +1,77 @@
+/*reset css*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, strong, b, i, ul, li,
+article, footer, header, hgroup, menu, nav, section{margin:0px; padding:0px; font-size: 100%;}
+
+li{display: inline; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box;
+    -ms-box-sizing:border-box; box-sizing:border-box;
+}
+
+li a,a{
+    text-decoration:none;
+}
+
+/*Google font*/
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap');
+
+#lost{
+    width: 100%;
+    height: 860px;
+    background-color: lightgreen; 
+}
+
+#lost #quatre{
+    width: 100%;
+    height: 100%;
+}
+
+#lost #quatre img{
+    width: 100%;
+    height: 100%;
+}
+
+#lost #texto{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 20%;
+    z-index: 1000;
+}
+
+#lost #texto .find{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 55px;
+    margin-left: 18%;
+    
+
+}
+
+#lost #texto .linked{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 28px;
+    margin-left: 28%;
+}
+
+#lost #texto .remove{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 31%;
+}
+
+.return{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 28px;
+    color: #fff;
+    width: 215px;
+    height: 55px;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    top: 755px;
+    left: 615px;
+    background-color: #58b893;
+    cursor: pointer;
+
+}
